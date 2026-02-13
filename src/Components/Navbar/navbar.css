@@ -1,0 +1,35 @@
+nav {
+    padding: 0 90px;
+    display: flex;
+    background-color: lightseagreen;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+    ul{
+        font-weight: bold;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 30%;
+       
+    }
+    
+    li a{
+        background-color: gold;
+         text-decoration: none;
+         color:white;
+         padding: 5px;
+         transition: all 0.5s ease;
+         &:hover{
+            color: black;
+            transform: scale(1.8);
+         }
+    }
+
+}
+/* .active{
+    background-color: wheat;
+} */

@@ -1,0 +1,29 @@
+.products{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 20px;
+padding: 2%;
+}
+.pro{
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    border: 1px solid gray;
+    height: 300px;
+    padding: 13px;
+    width: 25%;
+    img{
+        width: 30%;
+    }
+    .btn{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+     
+    }
+}
+
+  
